@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>loginforterafyne</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+      background-image: url("../static/bg2.jpeg");
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  padding: 10px;
+  background: #3B3E40;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-family: timesnewroman;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.input-field:focus {
+  border: 2px solid #3B3E40;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #3B3E40;
+  color: white;
+  padding: 10px 8px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  opacity: 0.9;
+  border-radius: 8px;
+  font-family: timesnewroman;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: 40%;
+  margin-top: 80%;
+}
+
+.btn:hover {
+  opacity: 1.5;
+}
+.footer{
+  border:double;
+  border-color: black;
+  background-color: white;
+  font-family: timesnewroman;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+</style>
+</head>
+<body>
+
+<form  action="/" style="max-width:350px;margin:auto;padding-top: 100px;" id="myform" method="POST">
+  <h2 align="center" style="border: solid;border-color: #3B3E40;background-color: #3B3E40;border-radius: 8px;font-family: timesnewroman;font-size: 25px;color: white">Login Form</h2>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="email" placeholder="Email" name="email" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw" required>
+  </div><br>
+  <!-- <a type="reset" class="btn" onclick="submit()" value="LogIn" name="login" href="main.html"> -->
+
+  <a class="btn" type="reset" align="center" name="login" href="main.html" onclick="submit()">Login</a>
+
+  <p align="center" class="footer">if u dont have an account <a href="register.html" target="_self">click-here</a> </p>
+      <p align="center" class="footer"><a href="main.html">Back To HomePage</a></p>
+    <script type="text/javascript">
+      function submit(){
+        document.getElementById('myform')[0].reset();
+        return false;
+      }
+  </script>
+   <div class="footer">
+        <p align="center" >&copy; 2020 terafynefoodsolutions Pvt ltd.</p>
+        <p align="center"> All Rights Reserved</p>
+        
+        <p align="center">Developed By<a href="https://www.linkedin.com/in/svigneshkumarlkdin/" target="_blank">VigneshKumar Selvaraj</a></p>  
+    </div>
+</form>
+
+</body>
+</html>

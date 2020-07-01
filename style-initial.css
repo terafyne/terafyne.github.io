@@ -1,0 +1,71 @@
+.box {
+        background-color: #FFFFFF;
+        width: 400px;
+        height: 200px;
+        margin: 10em auto;
+        border-radius: 1.5em; 
+	}
+.font {
+        padding-top: 30px;
+        color:grey;
+        font-weight: bold;
+        font-size: 22px;
+    }
+.register {
+       cursor: pointer;
+        border-radius: 10em;
+        color: #fff;
+        background: grey;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 40%;
+        font-size: 15px;
+        
+    }
+.login {
+       cursor: pointer;
+        border-radius: 10em;
+        color: #fff;
+        background: grey;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-right: 10%;
+        font-size: 15px;    
+    }
+    
+ .heading{
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 15em;
+        color: white;
+        background: #3B3E40;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Windows', timesnewroman;
+        margin-left: 6.5%;
+        font-size: 20px;
+ }  
+ .background{
+ 	
+    background-image: url("../static/bg2.jpeg");
+    height:100%;
+    background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+ }
+ .logo {
+    height:auto;
+    width:auto;
+    position:absolute;
+    top:10px;
+    left:10px;
+    border: 10px solid transparent;
+}

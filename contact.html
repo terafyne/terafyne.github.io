@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>contactus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>loginforterafyne</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+      background-image: url("../static/bg6.jpg");
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  padding: 10px;
+  background: #3B3E40;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-family: timesnewroman;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.input-field:focus {
+  border: 2px solid #3B3E40;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #3B3E40;
+  color: white;
+  padding: 10px 8px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  opacity: 0.9;
+  border-radius: 8px;
+  font-family: timesnewroman;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: 40%;
+  margin-top: auto;
+}
+
+.btn:hover {
+  opacity: 1.5;
+}
+.footer{
+  border:double;
+  border-color: black;
+  background-color: white;
+  font-family: timesnewroman;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+</style>
+</head>
+<body>
+
+<form  action="/" style="max-width:350px;margin:auto;padding-top: 100px;" id="contactform" method="POST">
+  <h2 align="center" style="border: solid;border-color: #3B3E40;background-color: #3B3E40;border-radius: 8px;font-family: timesnewroman;font-size: 25px;color: white">Contact Us</h2>
+
+  <div class="input-container">
+    <i class="fa fa-file icon"></i>
+    <input class="input-field" type="text" placeholder="Name" name="email" required>
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-heart icon"></i>
+    <input class="input-field" type="text" placeholder="Mobile" name="email" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-bars icon"></i>
+    <input class="input-field" type="text" placeholder="Message" name="psw" required >
+  </div>
+  <!-- <a type="reset" class="btn" onclick="submit()" value="LogIn" name="login" href="main.html"> -->
+<div class="input-container">
+    <input class="btn" align="center" value="Click On" type="submit" name="option"/>
+</div>
+  
+<p align="center" class="footer"><a href="main.html">Back To HomePage</a></p>
+   <div class="footer">
+   		
+        <p align="center" >&copy; 2020 terafynefoodsolutions Pvt ltd.</p>
+        <p align="center"> All Rights Reserved</p>
+       
+        <p align="center"><a href="https://www.linkedin.com/in/svigneshkumarlkdin/" target="_blank">VigneshKumar Selvaraj</a></p>  
+    </div>
+</form>
+
+</body>
+</html>
